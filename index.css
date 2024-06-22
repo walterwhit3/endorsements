@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1B1924;
+    text-align: center;
+    font-family: j;
+}
+
+input {
+    background: #444059;
+    color: #8F8F8F;
+    width:317px;
+    height: 118px;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 8px;
+}
+
+h1 {
+    color:white;
+    font-weight: bold;
+}
+
+h2 {
+    color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+
+button {
+    background: #28A9F1;
+    font-weight: bold;
+    size:22px;
+    line-height: 22px;
+    border: none;
+    border-radius: 8px;
+    width: 317px;
+    height: 61px;
+    margin-top: 20px;
+}
+
+#likeButton {
+    size: 16pxt
+    width: fit-content;
+    padding: 0%;
+    color: #1B1924;ext;
+}
+
+ul{
+    color:gray;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    padding: 0%;
+}
+
+li {
+    background-color: white;
+    color: #1B1924;
+    width:290px;
+    padding: 15px;
+    border-radius: 8px;
+}
